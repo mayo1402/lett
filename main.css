@@ -22,7 +22,7 @@ body {
     width: 32px; 
     height: 32px; 
     background-color: #ff1414;
-    transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(50deg);
     animation: heartbeat 1.4s infinite; 
   }
   
@@ -51,19 +51,19 @@ body {
   }
   
   @keyframes heartbeat {
-    0% { transform: translate(-50%, -50%) rotate(45deg) scale(1); }
-    25% { transform: translate(-50%, -50%) rotate(45deg) scale(1); }
-    30% { transform: translate(-50%, -50%) rotate(45deg) scale(1.4); }
-    50% { transform: translate(-50%, -50%) rotate(45deg) scale(1.2); }
-    70% { transform: translate(-50%, -50%) rotate(45deg) scale(1.4); }
-    100% { transform: translate(-50%, -50%) rotate(45deg) scale(1); }
+    0% { transform: translate(-50%, -50%) rotate(50deg) scale(1); }
+    25% { transform: translate(-50%, -50%) rotate(50deg) scale(1); }
+    30% { transform: translate(-50%, -50%) rotate(50deg) scale(1.4); }
+    50% { transform: translate(-50%, -50%) rotate(50deg) scale(1.2); }
+    70% { transform: translate(-50%, -50%) rotate(50deg) scale(1.4); }
+    100% { transform: translate(-50%, -50%) rotate(50deg) scale(1); }
   }
   
   .heart1 {
     width: 32px; 
     height: 32px; 
     background-color: #ff1414;
-    transform: translate(-50%, -160%) rotate(45deg); 
+    transform: translate(-50%, -160%) rotate(50deg); 
   }
   
   .heart1:before {
@@ -95,7 +95,7 @@ body {
     animation: heart1 2.5s ease-out 1s infinite; }
   
   @keyframes heart1 {
-    0% {transform: translateY(-200%) translateX(0) scale(0.25) rotate(45deg); opacity: 1;}
+    0% {transform: translateY(-200%) translateX(0) scale(0.25) rotate(50deg); opacity: 1;}
    
   100% {transform: translateY(-400%) translateX(0) scale(1) rotate(50deg); opacity: 0;}
   }
@@ -104,7 +104,7 @@ body {
     width: 32px; 
     height: 32px; 
     background-color: #ff1414;
-    transform: translate(-50%, -250%) rotate(45deg); 
+    transform: translate(-50%, -250%) rotate(50deg); 
   }
   
   .heart2:before {
@@ -137,14 +137,14 @@ body {
   @keyframes heart2 {
     0% {transform: translateY(-300%) translateX(-100%) scale(0.25) rotate(-20deg); opacity: 0.2;}
    
-  100% {transform: translateY(-500%) translateX(-10%) scale(1) rotate(45deg); opacity: 0;}
+  100% {transform: translateY(-500%) translateX(-10%) scale(1) rotate(50deg); opacity: 0;}
   }
   
   .heart3 {
     width: 32px; 
     height: 32px; 
     background-color: #ff1414;
-    transform: translate(-50%, -350%) rotate(45deg); 
+    transform: translate(-50%, -350%) rotate(50deg); 
   }
   
   .heart3:before {
@@ -177,14 +177,14 @@ body {
   @keyframes heart3 {
     0% {transform: translateY(-430%) translateX(-100%) scale(0.25) rotate(20deg); opacity: 0.2;}
    
-  100% {transform: translateY(-650%) translateX(-10%) scale(1) rotate(60deg); opacity: 0;}
+  100% {transform: translateY(-650%) translateX(-10%) scale(1) rotate(70deg); opacity: 0;}
   }
   
   .heart4 {
     width: 32px; 
     height: 32px; 
     background-color: #ff1414;
-    transform: translate(-50%, -450%) rotate(45deg); 
+    transform: translate(-50%, -450%) rotate(50deg); 
   }
   
   .heart4:before {
@@ -216,7 +216,7 @@ body {
     animation: heart4 2.3s ease-out 1s infinite; }
   
   @keyframes heart4 {
-    0% {transform: translateY(-450%) translateX(-100%) scale(0.25) rotate(45deg); opacity: 0.2;}
+    0% {transform: translateY(-450%) translateX(-100%) scale(0.25) rotate(60deg); opacity: 0.2;}
    
   100% {transform: translateY(-750%) translateX(-10%) scale(1) rotate(80deg); opacity: 0;}
   }
