@@ -43,27 +43,6 @@ div.textCont::after {
     opacity: 1;
   }
 }
-
-footer {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  z-index: 100;
-}
-
-footer > a {
-  background-color: transparent;
-  color: var(--font-color);
-  font-weight: bold;
-  font-family: "Megrim";
-  font-size: 110%;
-  text-decoration: none;
-  padding: 5px 20px;
-
-  border: 3px solid var(--font-color);
-  transition: color 0.5s linear, box-shadow 0.5s ease-in;
-}
-
 .song {
   display: flex;
   align-items: center;
