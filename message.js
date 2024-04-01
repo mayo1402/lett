@@ -7,8 +7,7 @@ let i = 0;
 function dashOut(arr) {
   if (i < arr.length) {
     console.log(arr[i]);
-    // Replace the following line with appropriate code for your environment
-    // document.querySelector(".textCont").textContent += arr[i];
+    document.querySelector(".textCont").textContent += arr[i]; // Assuming you have an element with class 'textCont' in your HTML to display the text
 
     i++;
     console.log("The i count: " + i);
@@ -20,7 +19,7 @@ function dashOut(arr) {
 
 function interval(letter) {
   console.log(letter);
-  if (letter == ";" || letter == "." || letter == ",") {
+  if (letter === ";" || letter === "." || letter === ",") {
     return Math.floor(Math.random() * 500 + 500);
   } else {
     return Math.floor(Math.random() * 130 + 5);
@@ -33,4 +32,3 @@ function startFromBegin() {
 }
 
 startFromBegin();
-
