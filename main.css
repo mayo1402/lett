@@ -5,16 +5,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffc765;
+    background-color: #827c7c;
   }
   
   #card {
     width: 0; 
     height: 0; 
     border-top: 100px solid #63c2e2;
-    border-right: 170px solid #c1e1ec;
+    border-right: 170px solid #def5fc;
     border-bottom: 100px solid #63c2e2;
-    border-left: 170px solid #c1e1ec;
+    border-left: 170px solid #def5fc;
     box-shadow: 10px 10px 5px #f7b23c;
   }
   
