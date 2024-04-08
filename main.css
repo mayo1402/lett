@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fac05c;
+    background-image: https://wallpapers.com/images/high/classic-background-u7vil0nwh4z785rs.webp;
   }
   
   #card {
@@ -15,7 +15,7 @@ body {
     border-right: 170px solid #def5fc;
     border-bottom: 100px solid #63c2e2;
     border-left: 170px solid #def5fc;
-    box-shadow: 10px 10px 5px #f7b23c;
+    box-shadow: 10px 10px 5px r: 128, g: 128, b: 128 , h:0.6;
   }
   
   .heart {
