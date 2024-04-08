@@ -15,7 +15,7 @@ body {
     border-right: 170px solid #def5fc;
     border-bottom: 100px solid #63c2e2;
     border-left: 170px solid #def5fc;
-    box-shadow: 10px 10px 5px r: 128, g: 128, b: 128 , a:0.4;
+    box-shadow: 10px 10px 5px r: 128, g: 128, b: 128 , ;
   }
   
   .heart {
